@@ -16,9 +16,9 @@ let s:t_Co = exists('&t_Co') && !empty(&t_Co) && &t_Co > 1 ? &t_Co : 2
 let s:italics = (&t_ZH != '' && &t_ZH != '[7m') || has('gui_running') || has('nvim')
 
 if (has('termguicolors') && &termguicolors) || has('gui_running')
-  let g:terminal_ansi_colors = ['#2e313d', '#cf8164', '#76a065', '#ab924c', '#8296b0', '#a18daf', '#659ea2', '#b5b4c9', '#5b5f71', '#fe9f7c', '#92c47e', '#d2b45f', '#a0b9d8', '#c6aed7', '#7dc2c7', '#f0ecfe']
+  let g:terminal_ansi_colors = ['#21242c', '#cf8164', '#76a065', '#ab924c', '#8296b0', '#a18daf', '#659ea2', '#b5b4c9', '#32343e', '#fe9f7c', '#92c47e', '#d2b45f', '#a0b9d8', '#c6aed7', '#7dc2c7', '#f0ecfe']
   if has('nvim')
-    let g:terminal_color_0 = '#2e313d'
+    let g:terminal_color_0 = '#21242c'
     let g:terminal_color_1 = '#cf8164'
     let g:terminal_color_2 = '#76a065'
     let g:terminal_color_3 = '#ab924c'
@@ -26,7 +26,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
     let g:terminal_color_5 = '#a18daf'
     let g:terminal_color_6 = '#659ea2'
     let g:terminal_color_7 = '#b5b4c9'
-    let g:terminal_color_8 = '#5b5f71'
+    let g:terminal_color_8 = '#32343e'
     let g:terminal_color_9 = '#fe9f7c'
     let g:terminal_color_10 = '#92c47e'
     let g:terminal_color_11 = '#d2b45f'
@@ -48,34 +48,34 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi FoldColumn guifg=#3c3f4e guibg=NONE gui=NONE cterm=NONE
   hi Folded guifg=#6c6f82 guibg=#272935 gui=NONE cterm=NONE
   hi LineNr guifg=#3c3f4e guibg=NONE gui=NONE cterm=NONE
-  hi MatchParen guifg=#f0ecfe guibg=#2e313d gui=bold cterm=bold
+  hi MatchParen guifg=#f0ecfe guibg=#21242c gui=bold cterm=bold
   hi SignColumn guifg=#3c3f4e guibg=NONE gui=NONE cterm=NONE
   hi Ignore guifg=#3c3f4e guibg=NONE gui=NONE cterm=NONE
   hi Pmenu guifg=#6c6f82 guibg=#272935 gui=NONE cterm=NONE
   hi PmenuSbar guifg=#272935 guibg=#272935 gui=NONE cterm=NONE
-  hi PmenuSel guifg=#f0ecfe guibg=#2e313d gui=NONE cterm=NONE
+  hi PmenuSel guifg=#f0ecfe guibg=#21242c gui=NONE cterm=NONE
   hi PmenuThumb guifg=#20222d guibg=#20222d gui=NONE cterm=NONE
   hi ErrorMsg guifg=#fe9f7c guibg=NONE gui=NONE cterm=NONE
-  hi ModeMsg guifg=#5b5f71 guibg=NONE gui=NONE cterm=NONE
+  hi ModeMsg guifg=#32343e guibg=NONE gui=NONE cterm=NONE
   hi MoreMsg guifg=#a0b9d8 guibg=NONE gui=NONE cterm=NONE
   hi Question guifg=#a0b9d8 guibg=NONE gui=NONE cterm=NONE
   hi WarningMsg guifg=#d2b45f guibg=NONE gui=NONE cterm=NONE
   hi ColorColumn guifg=NONE guibg=#20222d gui=NONE cterm=NONE
   hi CursorColumn guifg=NONE guibg=#20222d gui=NONE cterm=NONE
-  hi CursorLine guifg=NONE guibg=#20222d gui=NONE cterm=NONE
-  hi QuickFixLine guifg=NONE guibg=#2e313d gui=NONE cterm=NONE
+  hi CursorLine guifg=NONE guibg=#21242c gui=NONE cterm=NONE
+  hi QuickFixLine guifg=NONE guibg=#21242c gui=NONE cterm=NONE
   hi StatusLine guifg=#191c25 guibg=#6c6f82 gui=NONE cterm=NONE
-  hi StatusLineNC guifg=#5b5f71 guibg=#272935 gui=NONE cterm=NONE
+  hi StatusLineNC guifg=#32343e guibg=#272935 gui=NONE cterm=NONE
   hi VertSplit guifg=#3c3f4e guibg=NONE gui=NONE cterm=NONE
   hi WildMenu guifg=#191c25 guibg=#b5b4c9 gui=NONE cterm=NONE
   hi IncSearch guifg=#191c25 guibg=#b5b4c9 gui=NONE cterm=NONE
   hi Search guifg=#191c25 guibg=#8296b0 gui=NONE cterm=NONE
-  hi Visual guifg=NONE guibg=#2e313d gui=NONE cterm=NONE
+  hi Visual guifg=NONE guibg=#21242c gui=NONE cterm=NONE
   hi DiffAdd guifg=#92c47e guibg=#1c2316 gui=NONE cterm=NONE
   hi DiffChange guifg=NONE guibg=#272935 gui=NONE cterm=NONE
   hi DiffDelete guifg=#fe9f7c guibg=#2d1d16 gui=NONE cterm=NONE
   hi DiffText guifg=#d2b45f guibg=#262011 gui=NONE cterm=NONE
-  hi Comment guifg=#5b5f71 guibg=NONE gui=italic cterm=italic
+  hi Comment guifg=#32343e guibg=NONE gui=italic cterm=italic
   hi Constant guifg=#a18daf guibg=NONE gui=NONE cterm=NONE
   hi Error guifg=#cf8164 guibg=NONE gui=NONE cterm=NONE
   hi PreProc guifg=#8296b0 guibg=NONE gui=NONE cterm=NONE
@@ -104,7 +104,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   endif
   let g:indentLine_color_gui  = '#3c3f4e'
   let g:indentLine_color_term = 238
-  let g:limelight_conceal_guifg = '#5b5f71'
+  let g:limelight_conceal_guifg = '#32343e'
   let g:limelight_conceal_ctermfg = 60
   hi SignifySignAdd guifg=#92c47e guibg=NONE gui=NONE cterm=NONE
   hi SignifySignDelete guifg=#fe9f7c guibg=NONE gui=NONE cterm=NONE
@@ -182,9 +182,9 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi! link vimUserFunc Function
   hi markdownBold guifg=NONE guibg=NONE gui=bold ctermfg=NONE ctermbg=NONE cterm=bold
   hi markdownItalic guifg=NONE guibg=NONE gui=italic ctermfg=NONE ctermbg=NONE cterm=italic
-  hi markdownUrl guifg=#5b5f71 guibg=NONE gui=underline cterm=underline
+  hi markdownUrl guifg=#32343e guibg=NONE gui=underline cterm=underline
   hi markdownCode guifg=NONE guibg=#272935 gui=NONE cterm=NONE
-  hi markdownFaded guifg=#5b5f71 guibg=NONE gui=NONE cterm=NONE
+  hi markdownFaded guifg=#32343e guibg=NONE gui=NONE cterm=NONE
   hi! link markdownBlockquote None
   hi! link markdownCodeBlock markdownCode
   hi! link markdownCodeDelimiter markdownCode
@@ -288,7 +288,7 @@ if s:t_Co >= 256
   endif
   let g:indentLine_color_gui  = '#3c3f4e'
   let g:indentLine_color_term = 238
-  let g:limelight_conceal_guifg = '#5b5f71'
+  let g:limelight_conceal_guifg = '#32343e'
   let g:limelight_conceal_ctermfg = 60
   hi SignifySignAdd ctermfg=114 ctermbg=NONE cterm=NONE
   hi SignifySignDelete ctermfg=216 ctermbg=NONE cterm=NONE
@@ -403,9 +403,9 @@ endif
 " Color: base0        #191c25 ~ ; Background
 " Color: base1        #20222d ~ ; Slightly lighter
 " Color: base2        #272935 ~ ; Much lighter
-" Color: base3        #2e313d ~ ; Lightest
+" Color: base3        #21242c ~ ; Lightest
 " Color: base4        #3c3f4e ~ ; Almost invisible
-" Color: base5        #5b5f71 ~ ; Much darker
+" Color: base5        #32343e ~ ; Much darker
 " Color: base6        #6c6f82 ~ ; Slightly darker
 " Color: base7        #b5b4c9 ~ ; Foreground
 " Color: base8        #f0ecfe ~ ; Lighter

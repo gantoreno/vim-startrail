@@ -8,7 +8,7 @@
 
 ## Installation
 
-Use *your* favorite runtimepath/plugin manager, or place `substrata.vim` into
+Use _your_ favorite runtimepath/plugin manager, or place `substrata.vim` into
 `~/.vim/colors/` for \*nix and `%userprofile%\vimfiles\colors\` for Windows.
 
 ## Usage
@@ -27,8 +27,8 @@ colorscheme substrata
 If you want other terminal output to match with Substrata, then set your terminal emulator’s colours to match the ones below:
 
 | Colour     | Normal    | Bright    |
-| ---        | ---       | ---       |
-| Black      | `#2e313d` | `#5b5f71` |
+| ---------- | --------- | --------- |
+| Black      | `#21242c` | `#32343e` |
 | Red        | `#cf8164` | `#fe9f7c` |
 | Green      | `#76a065` | `#92c47e` |
 | Yellow     | `#ab924c` | `#d2b45f` |
@@ -37,7 +37,7 @@ If you want other terminal output to match with Substrata, then set your termina
 | Cyan       | `#659ea2` | `#7dc2c7` |
 | White      | `#b5b4c9` | `#f0ecfe` |
 | Foreground | `#b5b4c9` |           |
-| Background | `#191c25` |           |
+| Background | `#121419` |           |
 
 A preset is included for iTerm and in Xresources format. The Xresources format can be used either by copying the contents of `xresources/substrata.xresources` into `~/.Xresources`, or, if you would prefer to keep the theme in a separate file, you can instead include it with the following syntax:
 
@@ -49,12 +49,12 @@ A preset is included for iTerm and in Xresources format. The Xresources format c
 
 Note that the screenshots below are likely to be slightly out of date. The typeface used in the screenshots is [iA Writer Mono][iafont], which is derived from [IBM Plex Mono][ibmfont].
 
-![The popup menu in Substrata](https://raw.githubusercontent.com/arzg/resources/master/substrata-popup.png)*Popup menu*
-![Searching in Substrata](https://raw.githubusercontent.com/arzg/resources/master/substrata-search.png)*Searching*
-![Showing the diff between two files in Substrata](https://raw.githubusercontent.com/arzg/resources/master/substrata-diff.png)*Diffing*
-![Writing in Substrata](https://raw.githubusercontent.com/arzg/resources/master/substrata-goyo.png)*Writing using [Goyo][goyo] and [Limelight][lime]*
-![Visual selections in Substrata](https://raw.githubusercontent.com/arzg/resources/master/substrata-visual.png)*Visual mode*
-![Fugitive in Substrata](https://raw.githubusercontent.com/arzg/resources/master/substrata-git.png)*[Fugitive][fug]*
+![The popup menu in Substrata](https://raw.githubusercontent.com/arzg/resources/master/substrata-popup.png)_Popup menu_
+![Searching in Substrata](https://raw.githubusercontent.com/arzg/resources/master/substrata-search.png)_Searching_
+![Showing the diff between two files in Substrata](https://raw.githubusercontent.com/arzg/resources/master/substrata-diff.png)_Diffing_
+![Writing in Substrata](https://raw.githubusercontent.com/arzg/resources/master/substrata-goyo.png)_Writing using [Goyo][goyo] and [Limelight][lime]_
+![Visual selections in Substrata](https://raw.githubusercontent.com/arzg/resources/master/substrata-visual.png)_Visual mode_
+![Fugitive in Substrata](https://raw.githubusercontent.com/arzg/resources/master/substrata-git.png)_[Fugitive][fug]_
 
 ## Inspiration
 

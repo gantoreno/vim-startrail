@@ -9,9 +9,9 @@
 let s:substrata_vim_version="1.0"
 let g:airline#themes#substrata#palette = {}
 
-let s:substrata0_gui = "#2e313d"
+let s:substrata0_gui = "#21242c"
 let s:substrata1_gui = "#3c3f4e"
-let s:substrata2_gui = "#5b5f71"
+let s:substrata2_gui = "#32343e"
 let s:substrata3_gui = "#6c6f82"
 let s:substrata4_gui = "#b5b4c9"
 let s:substrata5_gui = "#f0ecfe"
