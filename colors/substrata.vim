@@ -44,7 +44,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi Normal guifg=#b5b4c9 guibg=#191c25 gui=NONE cterm=NONE
   hi Cursor guifg=#191c25 guibg=#f0ecfe gui=NONE cterm=NONE
   hi None guifg=NONE guibg=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
-  hi CursorLineNr guifg=#6c6f82 guibg=#20222d gui=NONE cterm=NONE
+  hi CursorLineNr guifg=#3c3f4e guibg=NONE gui=NONE cterm=NONE
   hi FoldColumn guifg=#3c3f4e guibg=NONE gui=NONE cterm=NONE
   hi Folded guifg=#6c6f82 guibg=#272935 gui=NONE cterm=NONE
   hi LineNr guifg=#3c3f4e guibg=NONE gui=NONE cterm=NONE
@@ -62,7 +62,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi WarningMsg guifg=#d2b45f guibg=NONE gui=NONE cterm=NONE
   hi ColorColumn guifg=NONE guibg=#20222d gui=NONE cterm=NONE
   hi CursorColumn guifg=NONE guibg=#20222d gui=NONE cterm=NONE
-  hi CursorLine guifg=NONE guibg=#21242c gui=NONE cterm=NONE
+  hi CursorLine guifg=NONE guibg=#1A1C23 gui=NONE cterm=NONE
   hi QuickFixLine guifg=NONE guibg=#21242c gui=NONE cterm=NONE
   hi StatusLine guifg=#191c25 guibg=#6c6f82 gui=NONE cterm=NONE
   hi StatusLineNC guifg=#32343e guibg=#272935 gui=NONE cterm=NONE
