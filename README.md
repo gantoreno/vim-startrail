@@ -1,6 +1,6 @@
 <table><tbody align="center"><tr><td>
-<h1>vim-substrata</h1>
-<img src="https://raw.githubusercontent.com/arzg/resources/master/substrata-screenshot.png"/>
+<h1>vim-startrail</h1>
+<img src="https://raw.githubusercontent.com/arzg/resources/master/startrail-screenshot.png"/>
 <h3>a cold, dark colourscheme for Vim</h3>
 <em>made in <a href="https://github.com/lifepillar/vim-colortemplate">Colortemplate</a>, the Toolkit for Vim Colourscheme Designers</em>
 <em>inspired by <a href="https://www.nordtheme.com/ports/vim">Nord</a> and <a href="https://cocopon.github.io/iceberg.vim/">Iceberg</a></em>
@@ -8,7 +8,7 @@
 
 ## Installation
 
-Use _your_ favorite runtimepath/plugin manager, or place `substrata.vim` into
+Use _your_ favorite runtimepath/plugin manager, or place `startrail.vim` into
 `~/.vim/colors/` for \*nix and `%userprofile%\vimfiles\colors\` for Windows.
 
 ## Usage
@@ -19,7 +19,7 @@ Substrata should work out of the box if you’re using a GUI Vim such as GVim or
 
 ```
 set termguicolors " Only needed in terminals
-colorscheme substrata
+colorscheme startrail
 ```
 
 ### Terminal
@@ -39,22 +39,22 @@ If you want other terminal output to match with Substrata, then set your termina
 | Foreground | `#b5b4c9` |           |
 | Background | `#121419` |           |
 
-A preset is included for iTerm and in Xresources format. The Xresources format can be used either by copying the contents of `xresources/substrata.xresources` into `~/.Xresources`, or, if you would prefer to keep the theme in a separate file, you can instead include it with the following syntax:
+A preset is included for iTerm and in Xresources format. The Xresources format can be used either by copying the contents of `xresources/startrail.xresources` into `~/.Xresources`, or, if you would prefer to keep the theme in a separate file, you can instead include it with the following syntax:
 
 ```
-#include "/path/to/substrata.xresources"
+#include "/path/to/startrail.xresources"
 ```
 
 ## Screenshots
 
 Note that the screenshots below are likely to be slightly out of date. The typeface used in the screenshots is [iA Writer Mono][iafont], which is derived from [IBM Plex Mono][ibmfont].
 
-![The popup menu in Substrata](https://raw.githubusercontent.com/arzg/resources/master/substrata-popup.png)_Popup menu_
-![Searching in Substrata](https://raw.githubusercontent.com/arzg/resources/master/substrata-search.png)_Searching_
-![Showing the diff between two files in Substrata](https://raw.githubusercontent.com/arzg/resources/master/substrata-diff.png)_Diffing_
-![Writing in Substrata](https://raw.githubusercontent.com/arzg/resources/master/substrata-goyo.png)_Writing using [Goyo][goyo] and [Limelight][lime]_
-![Visual selections in Substrata](https://raw.githubusercontent.com/arzg/resources/master/substrata-visual.png)_Visual mode_
-![Fugitive in Substrata](https://raw.githubusercontent.com/arzg/resources/master/substrata-git.png)_[Fugitive][fug]_
+![The popup menu in Substrata](https://raw.githubusercontent.com/arzg/resources/master/startrail-popup.png)_Popup menu_
+![Searching in Substrata](https://raw.githubusercontent.com/arzg/resources/master/startrail-search.png)_Searching_
+![Showing the diff between two files in Substrata](https://raw.githubusercontent.com/arzg/resources/master/startrail-diff.png)_Diffing_
+![Writing in Substrata](https://raw.githubusercontent.com/arzg/resources/master/startrail-goyo.png)_Writing using [Goyo][goyo] and [Limelight][lime]_
+![Visual selections in Substrata](https://raw.githubusercontent.com/arzg/resources/master/startrail-visual.png)_Visual mode_
+![Fugitive in Substrata](https://raw.githubusercontent.com/arzg/resources/master/startrail-git.png)_[Fugitive][fug]_
 
 ## Inspiration
 

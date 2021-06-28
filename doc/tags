@@ -1,3 +1,3 @@
-g:substrata_italic_comments	substrata.txt	/*g:substrata_italic_comments*
-g:substrata_italic_functions	substrata.txt	/*g:substrata_italic_functions*
-substrata-options	substrata.txt	/*substrata-options*
+g:startrail_italic_comments	startrail.txt	/*g:startrail_italic_comments*
+g:startrail_italic_functions	startrail.txt	/*g:startrail_italic_functions*
+startrail-options	startrail.txt	/*startrail-options*

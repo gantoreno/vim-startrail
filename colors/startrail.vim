@@ -1,4 +1,4 @@
-" Name:         Substrata
+" Name:         Startrail
 " Description:  A cold and dark colourscheme inspired by Nord and Iceberg
 " Author:       Aramis Razzaghipour <aramisnoah@gmail.com>
 " Maintainer:   Aramis Razzaghipour <aramisnoah@gmail.com>
@@ -10,13 +10,30 @@
 set background=dark
 
 hi clear
-let g:colors_name = 'substrata'
+let g:colors_name = 'startrail'
 
 let s:t_Co = exists('&t_Co') && !empty(&t_Co) && &t_Co > 1 ? &t_Co : 2
 let s:italics = (&t_ZH != '' && &t_ZH != '[7m') || has('gui_running') || has('nvim')
 
 if (has('termguicolors') && &termguicolors) || has('gui_running')
-  let g:terminal_ansi_colors = ['#21242c', '#cf8164', '#76a065', '#ab924c', '#8296b0', '#a18daf', '#659ea2', '#b5b4c9', '#32343e', '#fe9f7c', '#92c47e', '#d2b45f', '#a0b9d8', '#c6aed7', '#7dc2c7', '#f0ecfe']
+  let g:terminal_ansi_colors = [
+        \ '#21242c', 
+        \ '#cf8164', 
+        \ '#76a065', 
+        \ '#ab924c', 
+        \ '#8296b0', 
+        \ '#a18daf',
+        \ '#659ea2', 
+        \ '#b5b4c9', 
+        \ '#32343e', 
+        \ '#fe9f7c', 
+        \ '#92c47e', 
+        \ '#d2b45f', 
+        \ '#a0b9d8', 
+        \ '#c6aed7', 
+        \ '#7dc2c7', 
+        \ '#f0ecfe'
+        \ ]
   if has('nvim')
     let g:terminal_color_0 = '#21242c'
     let g:terminal_color_1 = '#cf8164'
@@ -35,11 +52,11 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
     let g:terminal_color_14 = '#7dc2c7'
     let g:terminal_color_15 = '#f0ecfe'
   endif
-  if !exists('g:substrata_italic_comments')
-    let g:substrata_italic_comments = 1
+  if !exists('g:startrail_italic_comments')
+    let g:startrail_italic_comments = 1
   endif
-  if !exists('g:substrata_italic_functions')
-    let g:substrata_italic_functions = 1
+  if !exists('g:startrail_italic_functions')
+    let g:startrail_italic_functions = 1
   endif
   hi Normal guifg=#b5b4c9 guibg=#191c25 gui=NONE cterm=NONE
   hi Cursor guifg=#191c25 guibg=#f0ecfe gui=NONE cterm=NONE
@@ -204,11 +221,11 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   if !s:italics
     hi markdownItalic gui=NONE cterm=NONE
   endif
-  if !g:substrata_italic_comments
+  if !g:startrail_italic_comments
     hi Comment        cterm=NONE gui=NONE
     hi SpecialComment cterm=NONE gui=NONE
   endif
-  if !g:substrata_italic_functions
+  if !g:startrail_italic_functions
     hi Function       cterm=NONE gui=NONE
   endif
   unlet s:t_Co s:italics
@@ -216,11 +233,11 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
 endif
 
 if s:t_Co >= 256
-  if !exists('g:substrata_italic_comments')
-    let g:substrata_italic_comments = 1
+  if !exists('g:startrail_italic_comments')
+    let g:startrail_italic_comments = 1
   endif
-  if !exists('g:substrata_italic_functions')
-    let g:substrata_italic_functions = 1
+  if !exists('g:startrail_italic_functions')
+    let g:startrail_italic_functions = 1
   endif
   hi Normal ctermfg=146 ctermbg=234 cterm=NONE
   if !has('patch-8.0.0616') && !has('nvim') " Fix for Vim bug
@@ -388,11 +405,11 @@ if s:t_Co >= 256
   if !s:italics
     hi markdownItalic cterm=NONE
   endif
-  if !g:substrata_italic_comments
+  if !g:startrail_italic_comments
     hi Comment        cterm=NONE gui=NONE
     hi SpecialComment cterm=NONE gui=NONE
   endif
-  if !g:substrata_italic_functions
+  if !g:startrail_italic_functions
     hi Function       cterm=NONE gui=NONE
   endif
   unlet s:t_Co s:italics
