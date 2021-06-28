@@ -43,6 +43,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
         \ '#7dc2c7', 
         \ '#f0ecfe'
         \ ]
+
   if has('nvim')
     let g:terminal_color_0 = '#21242c'
     let g:terminal_color_1 = '#cf8164'
