@@ -22,7 +22,16 @@ set termguicolors
 
 You can enable/disable italics through `g:startrail_italic_comments` and `g:startrail_italic_functions`, see `:h startrail` for more information.
 
-### Terminal
+## Airline
+
+Startrail also includes an [Airline]() theme, make sure to set `g:airline_theme` to `startrail` in your config file.
+
+![Normal mode](.github/normal.png)
+![Insert mode](.github/insert.png)
+![Visual mode](.github/visual.png)
+![Replace mode](.github/replace.png)
+
+## Terminal
 
 If you want other terminal output to match with Substrata, then set your terminal emulator’s colours to match the ones below:
 
