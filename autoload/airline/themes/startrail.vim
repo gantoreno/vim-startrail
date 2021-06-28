@@ -1,12 +1,11 @@
-" Copyright (C) 2019-present Aramis Razzaghipour <aramisnoah@gmail.com>
+"    ______      __         _      __   Gabriel Moreno
+"   / ____/___ _/ /_  _____(_)__  / /   ==============
+"  / / __/ __ `/ __ \/ ___/ / _ \/ /    E-mail:   gantoreno@gmail.com
+" / /_/ / /_/ / /_/ / /  / /  __/ /     Website:  https://gantoreno.com
+" \____/\__,_/_.___/_/  /_/\___/_/      GitHub:   https://github.com/gantoreno
+" 
+" Startrail airline theme
 
-" Project: Startrail Vim
-" Description: A cold and dark colorscheme for vim-airline-themes inspired
-" by Nord and Iceberg
-" Repository: https://github.com/arzg/vim-startrail
-" License: ISC
-
-let s:startrail_vim_version="1.0"
 let g:airline#themes#startrail#palette = {}
 
 let s:startrail0_gui = "#21242c"
