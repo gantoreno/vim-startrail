@@ -1,32 +1,32 @@
-<table><tbody align="center"><tr><td>
-<h1>vim-startrail</h1>
-<img src="https://raw.githubusercontent.com/arzg/resources/master/startrail-screenshot.png"/>
-<h3>a cold, dark colourscheme for Vim</h3>
-<em>made in <a href="https://github.com/lifepillar/vim-colortemplate">Colortemplate</a>, the Toolkit for Vim Colourscheme Designers</em>
-<em>inspired by <a href="https://www.nordtheme.com/ports/vim">Nord</a> and <a href="https://cocopon.github.io/iceberg.vim/">Iceberg</a></em>
-</td></tr></tbody></table>
+<div align="center">
+  <img src=".github/screenshot.png"></img>
+</div>
 
-## Installation
+## Startrail
 
-Use _your_ favorite runtimepath/plugin manager, or place `startrail.vim` into
-`~/.vim/colors/` for \*nix and `%userprofile%\vimfiles\colors\` for Windows.
+A dark & peaceful colorscheme for [Vim](https://www.vim.org/) & [Neovim](https://neovim.io/), initially forked from [arzg](https://github.com/arzg)'s [Substrata](https://github.com/arzg/vim-substrata) colorscheme.
 
 ## Usage
 
-### Vim
+Set the colorscheme inside `.vimrc` or `init.vim`:
 
-Substrata should work out of the box if you’re using a GUI Vim such as GVim or MacVim. Terminal usage, however, requires the terminal supporting 24-bit colour, also known as True Colour.
-
-```
-set termguicolors " Only needed in terminals
+```vim
 colorscheme startrail
 ```
+
+On terminal emulators, make sure to set neovim to use `truecolor` in order for Startrail to work as expected:
+
+```vim
+set termguicolors
+```
+
+You can enable/disable italics through `g:startrail_italic_comments` and `g:startrail_italic_functions`, see `:h startrail` for more information.
 
 ### Terminal
 
 If you want other terminal output to match with Substrata, then set your terminal emulator’s colours to match the ones below:
 
-| Colour     | Normal    | Bright    |
+| Color      | Normal    | Bright    |
 | ---------- | --------- | --------- |
 | Black      | `#21242c` | `#32343e` |
 | Red        | `#cf8164` | `#fe9f7c` |
@@ -39,38 +39,8 @@ If you want other terminal output to match with Substrata, then set your termina
 | Foreground | `#b5b4c9` |           |
 | Background | `#121419` |           |
 
-A preset is included for iTerm and in Xresources format. The Xresources format can be used either by copying the contents of `xresources/startrail.xresources` into `~/.Xresources`, or, if you would prefer to keep the theme in a separate file, you can instead include it with the following syntax:
+There's an included [iTerm2](https://iterm2.com/) colorscheme inside `schemes`, double-click it and it sould automatically be imported, search for the `Startrail` colorscheme.
 
-```
-#include "/path/to/startrail.xresources"
-```
+## Credits
 
-## Screenshots
-
-Note that the screenshots below are likely to be slightly out of date. The typeface used in the screenshots is [iA Writer Mono][iafont], which is derived from [IBM Plex Mono][ibmfont].
-
-![The popup menu in Substrata](https://raw.githubusercontent.com/arzg/resources/master/startrail-popup.png)_Popup menu_
-![Searching in Substrata](https://raw.githubusercontent.com/arzg/resources/master/startrail-search.png)_Searching_
-![Showing the diff between two files in Substrata](https://raw.githubusercontent.com/arzg/resources/master/startrail-diff.png)_Diffing_
-![Writing in Substrata](https://raw.githubusercontent.com/arzg/resources/master/startrail-goyo.png)_Writing using [Goyo][goyo] and [Limelight][lime]_
-![Visual selections in Substrata](https://raw.githubusercontent.com/arzg/resources/master/startrail-visual.png)_Visual mode_
-![Fugitive in Substrata](https://raw.githubusercontent.com/arzg/resources/master/startrail-git.png)_[Fugitive][fug]_
-
-## Inspiration
-
-Substrata was inspired by these colourschemes (they’re great, you should check them out!):
-
-- [Apprentice][appr]
-- [Blame][blame]
-- [Iceberg][ice]
-- [Nord][nord]
-
-[appr]: https://github.com/romainl/Apprentice
-[blame]: https://github.com/hauleth/blame.vim
-[fug]: https://github.com/tpope/vim-fugitive
-[goyo]: https://github.com/junegunn/goyo.vim
-[iafont]: https://github.com/iaolo/iA-Fonts/tree/master/iA%20Writer%20Mono
-[ibmfont]: https://github.com/IBM/plex
-[ice]: https://github.com/cocopon/iceberg.vim
-[lime]: https://github.com/junegunn/limelight.vim
-[nord]: https://www.nordtheme.com/ports/vim
+Please note that this is only a slightly modified version of [vim-substrata](https://github.com/arzg/vim-substrata), make sure to show some love to the original creator.
