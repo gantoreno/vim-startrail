@@ -15,7 +15,7 @@ let s:t_Co = exists('&t_Co') && !empty(&t_Co) && &t_Co > 1 ? &t_Co : 2
 let s:italics = (&t_ZH != '' && &t_ZH != '[7m') || has('gui_running') || has('nvim')
 
 if (has('termguicolors') && &termguicolors) || has('gui_running')
-  let g:startrail_base_0 = '#191c25'
+  let g:startrail_base_0 = '#121419'
   let g:startrail_base_1 = '#20222d'
   let g:startrail_base_2 = '#21242c'
   let g:startrail_base_3 = '#272935'
@@ -70,12 +70,12 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
     let g:startrail_italic_functions = 1
   endif
   
-  hi Normal guifg=#b5b4c9 guibg=#191c25 gui=NONE cterm=NONE
-  hi Cursor guifg=#191c25 guibg=#f0ecfe gui=NONE cterm=NONE
+  hi Normal guifg=#b5b4c9 guibg=#121419 gui=NONE cterm=NONE
+  hi Cursor guifg=#121419 guibg=#f0ecfe gui=NONE cterm=NONE
   hi None guifg=NONE guibg=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
   hi CursorLineNr guifg=#3c3f4e guibg=NONE gui=NONE cterm=NONE
   hi FoldColumn guifg=#3c3f4e guibg=NONE gui=NONE cterm=NONE
-  hi Folded guifg=#6c6f82 guibg=#1a1c23 gui=NONE cterm=NONE
+  hi Folded guifg=#6c6f82 guibg=# gui=NONE cterm=NONE
   hi LineNr guifg=#3c3f4e guibg=NONE gui=NONE cterm=NONE
   hi MatchParen guifg=#f0ecfe guibg=#21242c gui=bold cterm=bold
   hi SignColumn guifg=#3c3f4e guibg=NONE gui=NONE cterm=NONE
@@ -93,12 +93,12 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi CursorColumn guifg=NONE guibg=#20222d gui=NONE cterm=NONE
   hi CursorLine guifg=NONE guibg=#1A1C23 gui=NONE cterm=NONE
   hi QuickFixLine guifg=NONE guibg=#21242c gui=NONE cterm=NONE
-  hi StatusLine guifg=#191c25 guibg=#6c6f82 gui=NONE cterm=NONE
+  hi StatusLine guifg=#121419 guibg=#6c6f82 gui=NONE cterm=NONE
   hi StatusLineNC guifg=#32343e guibg=#272935 gui=NONE cterm=NONE
   hi VertSplit guifg=#32343e guibg=NONE gui=NONE cterm=NONE
-  hi WildMenu guifg=#191c25 guibg=#b5b4c9 gui=NONE cterm=NONE
-  hi IncSearch guifg=#191c25 guibg=#b5b4c9 gui=NONE cterm=NONE
-  hi Search guifg=#191c25 guibg=#8296b0 gui=NONE cterm=NONE
+  hi WildMenu guifg=#121419 guibg=#b5b4c9 gui=NONE cterm=NONE
+  hi IncSearch guifg=#121419 guibg=#b5b4c9 gui=NONE cterm=NONE
+  hi Search guifg=#121419 guibg=#8296b0 gui=NONE cterm=NONE
   hi Visual guifg=NONE guibg=#21242c gui=NONE cterm=NONE
   hi DiffAdd guifg=#92c47e guibg=#1c2316 gui=NONE cterm=NONE
   hi DiffChange guifg=NONE guibg=#272935 gui=NONE cterm=NONE
