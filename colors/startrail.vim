@@ -120,6 +120,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi Title guifg=#f0ecfe guibg=NONE gui=NONE cterm=NONE
   hi Todo guifg=#f0ecfe guibg=NONE gui=NONE cterm=NONE
   hi Typedef guifg=#c6aed7 guibg=NONE gui=NONE cterm=NONE
+  hi NonText guifg=#121419 guibg=#121419 gui=NONE
   hi Underlined guifg=#a0b9d8 guibg=NONE gui=underline cterm=underline
   hi vimOption guifg=#a0b9d8 guibg=NONE gui=NONE cterm=NONE
   hi SpellBad guifg=#cf8164 guibg=NONE guisp=#cf8164 gui=undercurl cterm=undercurl
@@ -189,7 +190,6 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi! link Noise Delimiter
   hi! link StringDelimiter Delimiter
   hi! link Conceal Ignore
-  hi! link NonText Ignore
   hi! link SpecialKey Ignore
   hi! link EndOfBuffer Ignore
   hi! link Whitespace Ignore
@@ -384,7 +384,7 @@ if s:t_Co >= 256
   hi! link Noise Delimiter
   hi! link StringDelimiter Delimiter
   hi! link Conceal Ignore
-  hi! link NonText Ignore
+  hi! link NonText Normal
   hi! link SpecialKey Ignore
   hi! link EndOfBuffer Ignore
   hi! link Whitespace Ignore
