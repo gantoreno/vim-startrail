@@ -191,7 +191,6 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi! link StringDelimiter Delimiter
   hi! link Conceal Ignore
   hi! link SpecialKey Ignore
-  hi! link EndOfBuffer Ignore
   hi! link Whitespace Ignore
   hi! link Identifier None
   hi! link Searchlight IncSearch
