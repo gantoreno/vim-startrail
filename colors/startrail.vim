@@ -386,7 +386,6 @@ if s:t_Co >= 256
   hi! link Conceal Ignore
   hi! link NonText Normal
   hi! link SpecialKey Ignore
-  hi! link EndOfBuffer Ignore
   hi! link Whitespace Ignore
   hi! link Identifier None
   hi! link Searchlight IncSearch
