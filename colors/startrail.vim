@@ -120,7 +120,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi Title guifg=#f0ecfe guibg=NONE gui=NONE cterm=NONE
   hi Todo guifg=#f0ecfe guibg=NONE gui=NONE cterm=NONE
   hi Typedef guifg=#c6aed7 guibg=NONE gui=NONE cterm=NONE
-  hi EndOfBuffer guifg=#121419 guibg=#121419 gui=NONE
+  hi EndOfBuffer guifg=#121419 guibg=#121419
   hi Underlined guifg=#a0b9d8 guibg=NONE gui=underline cterm=underline
   hi vimOption guifg=#a0b9d8 guibg=NONE gui=NONE cterm=NONE
   hi SpellBad guifg=#cf8164 guibg=NONE guisp=#cf8164 gui=undercurl cterm=undercurl
