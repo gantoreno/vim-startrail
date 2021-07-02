@@ -80,7 +80,7 @@ let g:airline#themes#startrail#palette.visual.airline_error = s:VError
 
 let s:IAMain = [s:startrail4_gui, s:startrail0_gui, s:startrail5_term, s:startrail3_term]
 let s:IARight = [s:startrail4_gui, s:startrail0_gui, s:startrail5_term, s:startrail3_term]
-let s:IAMiddle = [s:startrail4_gui, s:startrail1_gui, s:startrail5_term, s:startrail1_term]
+let s:IAMiddle = [s:startrail4_gui, s:startrail0_gui, s:startrail5_term, s:startrail1_term]
 let s:IAWarn = [s:startrail1_gui, s:startrail13_gui, s:startrail3_term, s:startrail13_term]
 let s:IAError = [s:startrail0_gui, s:startrail12_gui, s:startrail1_term, s:startrail11_term]
 let g:airline#themes#startrail#palette.inactive = airline#themes#generate_color_map(s:IAMain, s:IARight, s:IAMiddle)
