@@ -127,6 +127,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi SpellCap guifg=#a0b9d8 guibg=NONE guisp=#a0b9d8 gui=undercurl cterm=undercurl
   hi SpellLocal guifg=#a18daf guibg=NONE guisp=#a18daf gui=undercurl cterm=undercurl
   hi SpellRare guifg=#8296b0 guibg=NONE guisp=#8296b0 gui=undercurl cterm=undercurl
+  hi NonText guifg=#32343e
   hi! IndentBlanklineChar guifg=#32343e
   hi! CocExplorerIndentLine guifg=#32343e
   hi! TelescopeBorder guifg=#32343e
@@ -383,7 +384,6 @@ if s:t_Co >= 256
   hi! link Noise Delimiter
   hi! link StringDelimiter Delimiter
   hi! link Conceal Ignore
-  hi! link NonText Normal
   hi! link SpecialKey Ignore
   hi! link Whitespace Ignore
   hi! link Identifier None
