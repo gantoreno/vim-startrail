@@ -381,7 +381,6 @@ if s:t_Co >= 256
   hi! link SpecialChar Special
   hi! link Tag Special
   hi! link Noise Delimiter
-  hi! link NonText EndOfBuffer
   hi! link StringDelimiter Delimiter
   hi! link Conceal Ignore
   hi! link NonText Normal
