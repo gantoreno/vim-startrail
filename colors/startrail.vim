@@ -73,7 +73,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi Normal guifg=#b5b4c9 guibg=#121419 gui=NONE cterm=NONE
   hi Cursor guifg=#121419 guibg=#f0ecfe gui=NONE cterm=NONE
   hi None guifg=NONE guibg=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
-  hi CursorLineNr guifg=#21242c guibg=NONE gui=NONE cterm=NONE
+  hi CursorLineNr guifg=#3c3f4e guibg=NONE gui=NONE cterm=NONE
   hi FoldColumn guifg=#3c3f4e guibg=NONE gui=NONE cterm=NONE
   hi Folded guifg=#6c6f82 guibg=#1a1c23 gui=NONE cterm=NONE
   hi LineNr guifg=#3c3f4e guibg=NONE gui=NONE cterm=NONE
