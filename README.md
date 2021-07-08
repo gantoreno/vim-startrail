@@ -1,10 +1,10 @@
-<div align="center">
-  <img src=".github/screenshot.png"></img>
-</div>
+<p align="center">
+  <img src=".github/startrail.svg" width="300"></img>
+</p>
 
-## Startrail
+<h1 align="center">A colorscheme from the stars</h1>
 
-A dark & peaceful colorscheme for [Vim](https://www.vim.org/) & [Neovim](https://neovim.io/), initially forked from [arzg](https://github.com/arzg)'s [Substrata](https://github.com/arzg/vim-substrata) colorscheme.
+Startrail a dark & peaceful colorscheme for [Vim](https://www.vim.org/) & [Neovim](https://neovim.io/), initially forked from [arzg](https://github.com/arzg)'s [Substrata](https://github.com/arzg/vim-substrata) and inspired by [startrails](https://www.google.com/search?q=startrail).
 
 ## Usage
 
