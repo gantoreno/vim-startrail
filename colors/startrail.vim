@@ -135,6 +135,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi! TelescopeResultsBorder guifg=#32343e
   hi! TelescopePreviewBorder guifg=#32343e
   hi typescriptParens guifg=#6c6f81 guibg=NONE
+  hi! FloatermBorder guifg=#22242c guibg=NONE
 
   if !s:italics
     hi Comment gui=NONE cterm=NONE
