@@ -128,14 +128,14 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi SpellLocal guifg=#a18daf guibg=NONE guisp=#a18daf gui=undercurl cterm=undercurl
   hi SpellRare guifg=#8296b0 guibg=NONE guisp=#8296b0 gui=undercurl cterm=undercurl
   hi NonText guifg=#32343e
+  hi typescriptParens guifg=#6c6f81 guibg=NONE
   hi! IndentBlanklineChar guifg=#32343e
   hi! CocExplorerIndentLine guifg=#32343e
-  hi! TelescopeBorder guifg=#32343e
-  hi! TelescopePromptBorder guifg=#32343e
-  hi! TelescopeResultsBorder guifg=#32343e
-  hi! TelescopePreviewBorder guifg=#32343e
-  hi typescriptParens guifg=#6c6f81 guibg=NONE
-  hi! FloatermBorder guifg=#22242c guibg=NONE
+  " hi! TelescopeBorder guifg=#32343e
+  " hi! TelescopePromptBorder guifg=#32343e
+  " hi! TelescopeResultsBorder guifg=#32343e
+  " hi! TelescopePreviewBorder guifg=#32343e
+  " hi! FloatermBorder guifg=#22242c guibg=NONE
 
   if !s:italics
     hi Comment gui=NONE cterm=NONE
