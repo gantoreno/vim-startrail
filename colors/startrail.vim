@@ -131,11 +131,11 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi typescriptParens guifg=#6c6f81 guibg=NONE
   hi! IndentBlanklineChar guifg=#32343e
   hi! CocExplorerIndentLine guifg=#32343e
-  " hi! TelescopeBorder guifg=#32343e
-  " hi! TelescopePromptBorder guifg=#32343e
-  " hi! TelescopeResultsBorder guifg=#32343e
-  " hi! TelescopePreviewBorder guifg=#32343e
-  " hi! FloatermBorder guifg=#22242c guibg=NONE
+  hi! TelescopeBorder guifg=#6c6f81
+  hi! TelescopePromptBorder guifg=#6c6f81
+  hi! TelescopeResultsBorder guifg=#6c6f81
+  hi! TelescopePreviewBorder guifg=#6c6f81
+  hi! FloatermBorder guifg=#6c6f81 guibg=NONE
 
   if !s:italics
     hi Comment gui=NONE cterm=NONE
