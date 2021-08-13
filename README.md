@@ -55,3 +55,7 @@ There's an included [iTerm2](https://iterm2.com/) colorscheme inside `schemes`, 
 ## Credits
 
 Please note that this is only a slightly modified version of [vim-substrata](https://github.com/arzg/vim-substrata), make sure to show some love to the original creator.
+
+## License
+
+Licensed under the [GNU GPLv3](https://www.gnu.org/licenses/gpl-3.0.html) license.
