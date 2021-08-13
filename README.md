@@ -1,10 +1,12 @@
 <p align="center">
-  <img src=".github/startrail.svg" width="300"></img>
+  <img src=".github/startrail.svg" width="300" style="margin: 50px" />
 </p>
 
-<h1 align="center">A colorscheme from the stars</h1>
+# Startrail
 
-Startrail a dark & peaceful colorscheme for [Vim](https://www.vim.org/) & [Neovim](https://neovim.io/), initially forked from [arzg](https://github.com/arzg)'s [Substrata](https://github.com/arzg/vim-substrata) and inspired by [startrails](https://www.google.com/search?q=startrail).
+![https://img.shields.io/github/issues/gantoreno/vim-startrail](https://img.shields.io/github/issues/gantoreno/vim-startrail) ![https://img.shields.io/github/forks/gantoreno/vim-startrail](https://img.shields.io/github/forks/gantoreno/vim-startrail) ![https://img.shields.io/github/stars/gantoreno/vim-startrail](https://img.shields.io/github/stars/gantoreno/vim-startrail) ![https://img.shields.io/github/license/gantoreno/vim-startrail](https://img.shields.io/github/license/gantoreno/vim-startrail) ![https://raw.githubusercontent.com/sindresorhus/awesome/main/media/badge.svg](https://raw.githubusercontent.com/sindresorhus/awesome/main/media/badge.svg)
+
+A a dark & peaceful colorscheme for [Vim](https://www.vim.org/) & [Neovim](https://neovim.io/), initially forked from [arzg](https://github.com/arzg)'s [Substrata](https://github.com/arzg/vim-substrata) and inspired by [startrails](https://www.google.com/search?q=startrail).
 
 ## Usage
 
