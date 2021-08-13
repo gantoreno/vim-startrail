@@ -8,6 +8,10 @@
 
 A a dark & peaceful colorscheme for [Vim](https://www.vim.org/) & [Neovim](https://neovim.io/), initially forked from [arzg](https://github.com/arzg)'s [Substrata](https://github.com/arzg/vim-substrata) and inspired by [startrails](https://www.google.com/search?q=startrail).
 
+<div align="center">
+  <img src=".github/screenshot.png" />
+</div>
+
 ## Usage
 
 Set the colorscheme inside `.vimrc` or `init.vim`:
