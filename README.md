@@ -2,7 +2,7 @@
   <img src=".github/startrail.svg" width="300" style="margin: 50px" />
 </p>
 
-# Startrail
+# Vim Startrail
 
 ![https://img.shields.io/github/issues/gantoreno/vim-startrail](https://img.shields.io/github/issues/gantoreno/vim-startrail) ![https://img.shields.io/github/forks/gantoreno/vim-startrail](https://img.shields.io/github/forks/gantoreno/vim-startrail) ![https://img.shields.io/github/stars/gantoreno/vim-startrail](https://img.shields.io/github/stars/gantoreno/vim-startrail) ![https://img.shields.io/github/license/gantoreno/vim-startrail](https://img.shields.io/github/license/gantoreno/vim-startrail) ![https://raw.githubusercontent.com/sindresorhus/awesome/main/media/badge.svg](https://raw.githubusercontent.com/sindresorhus/awesome/main/media/badge.svg)
 
